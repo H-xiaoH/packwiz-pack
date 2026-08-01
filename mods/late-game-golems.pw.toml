@@ -1,0 +1,13 @@
+name = "Late Game Golems"
+filename = "lategamegolems-1.21.1-neoforge-3.3.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gqnTSkCZ/versions/fthW6CML/lategamegolems-1.21.1-neoforge-3.3.5.jar"
+hash-format = "sha512"
+hash = "b0dec028212c3fa19ad21c3e010af3cc9053c2471d1bd4acef3656e2ef12271470ca29ffe79cfa8c355cd44638be6af0900f588a2b7476d06575ec307162fe63"
+
+[update]
+[update.modrinth]
+mod-id = "gqnTSkCZ"
+version = "fthW6CML"
