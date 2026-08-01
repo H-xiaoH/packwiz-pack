@@ -456,7 +456,7 @@ metafile = true
 
 [[files]]
 file = "mods/pokebike.pw.toml"
-hash = "8cff0424ba7fb889ff0a8f5f805ef5ae19b9118ba3a3225ff10041b03ab82f1c"
+hash = "02b97e613c9cd43312af2dd6b38adebb7efc9ce4ec3d19b46daf84c46cb911f0"
 metafile = true
 
 [[files]]
