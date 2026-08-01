@@ -1,0 +1,16 @@
+name = "My Modpack"
+author = "HxiaoH"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "28c1a89230b57c767298ac8bdfd63d690177f183357abaddc1af44173a51d4ae"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.247"
+
+[options]
+datapack-folder = "datapacks"
