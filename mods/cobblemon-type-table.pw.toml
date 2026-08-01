@@ -1,0 +1,13 @@
+name = "Cobblemon Type Table"
+filename = "cobblemontypechart-1.0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/L1VaG0BJ/versions/VjDQtm7V/cobblemontypechart-1.0.4.jar"
+hash-format = "sha512"
+hash = "d409d06cf84bd44d309ce16b70458012d3cf4c1963a803bab28e428e08e85270636e2f5b762256459531509aa1b09ec3d091d7030c387d6a7af21c15c811a4e5"
+
+[update]
+[update.modrinth]
+mod-id = "L1VaG0BJ"
+version = "VjDQtm7V"
