@@ -1,0 +1,13 @@
+name = "RainApricot  Spawn Notification (for Pixelmon)"
+filename = "rainspawnnotification-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bLEM1zXd/versions/8N5LHbe2/rainspawnnotification-3.0.0.jar"
+hash-format = "sha512"
+hash = "b65c5a85f810d072232ab17848cce08c53aa8133e2c1f4fc4e7c5a15a8d4755bbe46fb4b6f96ec402f8ce5dc87b262ff6517791e6597f3a7d1433196a5f1acd4"
+
+[update]
+[update.modrinth]
+mod-id = "bLEM1zXd"
+version = "8N5LHbe2"
