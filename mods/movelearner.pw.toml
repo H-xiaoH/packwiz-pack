@@ -1,0 +1,13 @@
+name = "MoveLearner [Pixelmon/Cobblemon]"
+filename = "MoveLearner-1.6.0-1.21.1-Pixelmon-NeoForge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/hAMCR23s/versions/tyQWuWm4/MoveLearner-1.6.0-1.21.1-Pixelmon-NeoForge.jar"
+hash-format = "sha512"
+hash = "4e5a1ae35c12d625aa79501ead3bd42cbc47a74a1a0c97bceac628acbf2393bc0257d5a6660d351fa5eb8bc86149a9a8329fe01997cf9938fb2c3ab978b6b04d"
+
+[update]
+[update.modrinth]
+mod-id = "hAMCR23s"
+version = "tyQWuWm4"
