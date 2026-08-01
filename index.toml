@@ -605,6 +605,11 @@ hash = "7481488cc878ce36f7cd69acfff4ffcdc24470916692a54798239331934c9a58"
 metafile = true
 
 [[files]]
+file = "mods/yes-steve-model.pw.toml"
+hash = "86a3fbce316c2d2e051df6915302d4417496fec60ae6f12ae24f54f823b61047"
+metafile = true
+
+[[files]]
 file = "mods/yigd.pw.toml"
 hash = "ef80891ed72e87e1fd2fda3bcee9e8a50e5c4cf836283ae8ef4c81e7fd213fd0"
 metafile = true
