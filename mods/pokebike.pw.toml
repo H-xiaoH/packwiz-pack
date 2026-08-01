@@ -1,0 +1,13 @@
+name = "PokeBike [Cobblemon & Pixelmon Addon]"
+filename = "pokebike-neoforge-2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8eqU62OI/versions/PXki8vb3/pokebike-neoforge-2.0.1.jar"
+hash-format = "sha512"
+hash = "f942d6be71403a5b53dce541ab90ad3ceec176c3fd85b31f084414dd7ffec113bc46731a4cb4ede4553b55335656f233466ba4b92409e5b1fc6b3ee38b8fbe49"
+
+[update]
+[update.modrinth]
+mod-id = "8eqU62OI"
+version = "PXki8vb3"
