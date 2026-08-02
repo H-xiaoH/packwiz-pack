@@ -33,7 +33,7 @@ jobs:
           TZ: Asia/Shanghai
         run: |
           export PATH="$PATH:$(go env GOPATH)/bin"
-          version="$(date +'%y.%m.%d.%H.%M')"
+          version="$(date +'%y.%-m.%-d.%-H.%-M')"
           sed -i "s/^version = .*/version = \"${version}\"/" pack.toml
           packwiz refresh
           git add pack.toml index.toml
