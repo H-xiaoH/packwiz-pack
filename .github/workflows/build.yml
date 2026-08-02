@@ -50,11 +50,6 @@ jobs:
           export PATH="$PATH:$(go env GOPATH)/bin"
           packwiz modrinth export -y -o "My-Modpack.mrpack"
 
-      - name: Export CurseForge pack
-        run: |
-          export PATH="$PATH:$(go env GOPATH)/bin"
-          packwiz curseforge export -y -o "My-Modpack-CurseForge.zip"
-
       - name: Upload Modrinth pack
         uses: actions/upload-artifact@v7
         with:
@@ -62,12 +57,18 @@ jobs:
           path: My-Modpack.mrpack
           retention-days: 30
 
-      - name: Upload CurseForge pack
-        uses: actions/upload-artifact@v7
-        with:
-          name: curseforge-pack
-          path: My-Modpack-CurseForge.zip
-          retention-days: 30
+      - name: Upload mrpack to Aliyun OSS
+        if: ${{ secrets.OSS_ACCESS_KEY_ID != '' && secrets.OSS_ACCESS_KEY_SECRET != '' }}
+        env:
+          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+        run: |
+          curl -sL -o ossutil.zip https://gosspublic.alicdn.com/ossutil/v2/2.1.2/ossutil-2.1.2-linux-amd64.zip
+          unzip -q ossutil.zip
+          ./ossutil-2.1.2-linux-amd64/ossutil cp My-Modpack.mrpack oss://mc-hxiaoh/My-Modpack.mrpack \
+            --endpoint oss-cn-shenzhen.aliyuncs.com \
+            --access-key-id "$OSS_ACCESS_KEY_ID" \
+            --access-key-secret "$OSS_ACCESS_KEY_SECRET"
 
       - name: Publish version bump
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
@@ -86,8 +87,7 @@ jobs:
       - name: Download modpack artifacts
         uses: actions/download-artifact@v8
         with:
-          pattern: '*pack'
-          merge-multiple: true
+          name: modrinth-pack
           path: dist
 
       - name: Create GitHub release
