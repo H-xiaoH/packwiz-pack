@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/build.yml"
-hash = "75a34df5bb29ae5e7b00ad5130a241a8c4db2705f50a5e41c1f71a4f8c0e532f"
+hash = "ba27e367c1376adf2c3163707261a0792f21ea3d32084d2da58e59d1cd5bc492"
 
 [[files]]
 file = "mods/3dskinlayers.pw.toml"
