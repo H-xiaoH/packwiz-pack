@@ -1,0 +1,8 @@
+name = "IterationT 3.2.0"
+filename = "iterationT-3.2.0.zip"
+side = "client"
+
+[download]
+url = "https://mc.hxiaoh.com/shaders/iterationT-3.2.0.zip"
+hash-format = "sha256"
+hash = "c0735d5f1de0edca2b1c155dae1c650ddb8d2d04a3ebdd3d2ff74dd7a19db116"

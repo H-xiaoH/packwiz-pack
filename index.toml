@@ -655,6 +655,11 @@ hash = "2541b092b92a82757e5d200a6093658e20db548bb8583abad3f4506ed04e5ce6"
 metafile = true
 
 [[files]]
+file = "resourcepacks/patrix-32x.pw.toml"
+hash = "9b533e4b0f44edd1ee5ffb2540c4d2c8ce618f7433576e250bb6dd64acd23267"
+metafile = true
+
+[[files]]
 file = "shaderpacks/bsl-shaders.pw.toml"
 hash = "f91c2ec79366b4607d93928a07c223cbaa4a2e18fe0c110e68a3fc064e69b65a"
 metafile = true
@@ -667,4 +672,9 @@ metafile = true
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
 hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
+metafile = true
+
+[[files]]
+file = "shaderpacks/iterationt-3-2-0.pw.toml"
+hash = "d296482fa1157f1ac6f000daf8403ee4a7d82c43cf4add9a5d83add787ace554"
 metafile = true
