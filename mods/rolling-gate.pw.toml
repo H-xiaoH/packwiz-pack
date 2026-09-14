@@ -1,13 +1,13 @@
 name = "RollingGate"
-filename = "RollingGate-neoforge-1.21.1-1.1.0+build.64.jar"
+filename = "RollingGate-neoforge-1.21.1-1.1.0+build.66.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/HXsmHiKu/versions/zAhnjym7/RollingGate-neoforge-1.21.1-1.1.0%2Bbuild.64.jar"
+url = "https://cdn.modrinth.com/data/HXsmHiKu/versions/LTcqijHi/RollingGate-neoforge-1.21.1-1.1.0%2Bbuild.66.jar"
 hash-format = "sha512"
-hash = "86f0905074d2b754c324bc8f0c4c3d35eafeb6475b3080ebc6db1e072ce017f8b6328d2074c92c08b96352fc8b8bd99cba08a2dfca3cf49ea033921c425ff5b4"
+hash = "0801465442079566b5e02b1a6fda38f6175a38d1611a7ee83d9b39dd9231dd2d3839e2f1de87c19d5c1a76f4bb4b43daa97bc3bb9e56307e4c4b7635ce45b6f7"
 
 [update]
 [update.modrinth]
 mod-id = "HXsmHiKu"
-version = "zAhnjym7"
+version = "LTcqijHi"

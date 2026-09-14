@@ -1,13 +1,13 @@
 name = "RTS building: Build From Above"
-filename = "rtsbuilding-neoforge-1.21.1-1.1.6-patch2.jar"
+filename = "rtsbuilding-neoforge-1.21.1-1.1.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/5PkY7RJI/versions/IGZHrDce/rtsbuilding-neoforge-1.21.1-1.1.6-patch2.jar"
+url = "https://cdn.modrinth.com/data/5PkY7RJI/versions/J6pjI9e8/rtsbuilding-neoforge-1.21.1-1.1.7.jar"
 hash-format = "sha512"
-hash = "16e5ae0a2ce17dae7d8dc4265b7f24ffbbf8a67778e6115eb25aacae94b197c8e8910aa0f1fb83cde940a9686e03f8848e5f2bb0f813d90584ae087b86d0b6e1"
+hash = "a381070bbb8564f00ef6899ae2f0e81e8f2ea14c3e2e0580c38dd5b5ed1706fb0a1ac483981ecbdd25cf8eed6cf1b127dcb544ed75c998bf412a810330b254cc"
 
 [update]
 [update.modrinth]
 mod-id = "5PkY7RJI"
-version = "IGZHrDce"
+version = "J6pjI9e8"
