@@ -48,13 +48,13 @@ jobs:
       - name: Export Modrinth pack
         run: |
           export PATH="$PATH:$(go env GOPATH)/bin"
-          packwiz modrinth export -y -o "My-Modpack.mrpack"
+          packwiz modrinth export -y -o "modpack.mrpack"
 
       - name: Upload Modrinth pack
         uses: actions/upload-artifact@v7
         with:
           name: modrinth-pack
-          path: My-Modpack.mrpack
+          path: modpack.mrpack
           retention-days: 30
 
       - name: Upload mrpack to Aliyun OSS
@@ -68,10 +68,21 @@ jobs:
           fi
           curl -sL -o ossutil.zip https://gosspublic.alicdn.com/ossutil/v2/2.1.2/ossutil-2.1.2-linux-amd64.zip
           unzip -q ossutil.zip
-          ./ossutil-2.1.2-linux-amd64/ossutil cp My-Modpack.mrpack oss://mc-hxiaoh/My-Modpack.mrpack \
+          ./ossutil-2.1.2-linux-amd64/ossutil cp modpack.mrpack oss://mc-hxiaoh/modpack.mrpack \
             --endpoint oss-cn-shenzhen.aliyuncs.com \
             --access-key-id "$OSS_ACCESS_KEY_ID" \
             --access-key-secret "$OSS_ACCESS_KEY_SECRET"
+
+      - name: Publish rolling "latest" release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete latest --cleanup-tag -y 2>/dev/null || true
+          gh release create latest modpack.mrpack \
+            --title "Latest build $(date +'%Y-%m-%d %H:%M')" \
+            --notes "自动发布：main 最新构建（commit $(git rev-parse --short HEAD)）" \
+            --latest
 
       - name: Publish version bump
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
