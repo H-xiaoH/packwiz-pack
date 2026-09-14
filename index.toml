@@ -115,11 +115,6 @@ hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
-file = "mods/cobblemon-type-table.pw.toml"
-hash = "7be37db9f2dca8890467b3f392e54cc3aaf0c1d318ec32d7bf2ae605287b6bd5"
-metafile = true
-
-[[files]]
 file = "mods/collective.pw.toml"
 hash = "e37aafe5cd58c8289c3b8929393cba2a5c7f2cdd5bbe01e9c6ada1f3f5b86436"
 metafile = true
@@ -415,11 +410,6 @@ hash = "49c0bacf8e4cb3ade6c384ad379282f92d7fa3075f2affd8e3093feb685288dd"
 metafile = true
 
 [[files]]
-file = "mods/pixelmon.pw.toml"
-hash = "5b618d27ae49ca68e1fdad6d9214426ab54b40761f4cf5f2f1cd53549e3131f6"
-metafile = true
-
-[[files]]
 file = "mods/pixeltweaks.pw.toml"
 hash = "ce3974c3ba0c00bea5a1b83c62299eb6d0eadf1d99a44484bb26d55f27e2a713"
 metafile = true
@@ -462,11 +452,6 @@ metafile = true
 [[files]]
 file = "mods/queqiao.pw.toml"
 hash = "75bc77f53c03294bc241cf8eedfb2867a53c1d0fae077fd27c131aca46fb1cd5"
-metafile = true
-
-[[files]]
-file = "mods/rainapricot-spawn-notification-(for-pixelmon).pw.toml"
-hash = "d4f3c231bc3bd97bba428892d8a0b3504c88f3da3f681d9f9ea52bff1b2d6ffc"
 metafile = true
 
 [[files]]
