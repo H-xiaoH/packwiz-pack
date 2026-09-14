@@ -4,5 +4,5 @@ side = "client"
 
 [download]
 url = "https://mc.hxiaoh.com/shaders/iterationT-3.2.0.zip"
-hash-format = "sha256"
-hash = "c0735d5f1de0edca2b1c155dae1c650ddb8d2d04a3ebdd3d2ff74dd7a19db116"
+hash-format = "sha512"
+hash = "8a5691d9212c89b1be73aeb4a5653cebc75364e7c56a4686abe2e99d622db576baa8d775c6976e528d0e66b765c1c586dac1e8ca13f90f7d3de5f601dcea8864"
