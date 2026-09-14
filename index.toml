@@ -410,23 +410,8 @@ hash = "49c0bacf8e4cb3ade6c384ad379282f92d7fa3075f2affd8e3093feb685288dd"
 metafile = true
 
 [[files]]
-file = "mods/pixeltweaks.pw.toml"
-hash = "ce3974c3ba0c00bea5a1b83c62299eb6d0eadf1d99a44484bb26d55f27e2a713"
-metafile = true
-
-[[files]]
 file = "mods/playeranimator.pw.toml"
 hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
-metafile = true
-
-[[files]]
-file = "mods/pokebadges.pw.toml"
-hash = "46c2df68fad7945a68eda42582b91c86aeaebc5b9516c83fb8f6b8e982208c67"
-metafile = true
-
-[[files]]
-file = "mods/pokebike.pw.toml"
-hash = "02b97e613c9cd43312af2dd6b38adebb7efc9ce4ec3d19b46daf84c46cb911f0"
 metafile = true
 
 [[files]]
