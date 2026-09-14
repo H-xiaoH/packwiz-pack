@@ -71,6 +71,7 @@ jobs:
           ./ossutil-2.1.2-linux-amd64/ossutil cp modpack.mrpack oss://mc-hxiaoh/modpack.mrpack \
             --region cn-shenzhen \
             --endpoint oss-cn-shenzhen.aliyuncs.com \
+            -f \
             --acl public-read \
             --access-key-id "$OSS_ACCESS_KEY_ID" \
             --access-key-secret "$OSS_ACCESS_KEY_SECRET"
