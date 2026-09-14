@@ -25,7 +25,10 @@ jobs:
           cache: false
 
       - name: Install packwiz
-        run: go install github.com/packwiz/packwiz@latest
+        env:
+          CF_KEY: ${{ secrets.CF_API_KEY }}
+        run: |
+          go install -ldflags="-X 'github.com/packwiz/packwiz/curseforge.cfApiKey=${CF_KEY}'" github.com/packwiz/packwiz@latest
 
       - name: Bump pack version
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
