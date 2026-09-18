@@ -656,7 +656,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/cozyui-plus.pw.toml"
-hash = "5ba1322b61ca7551554f7bb37359a256b92556283f9f90656a085703fcbcebf2"
+hash = "59b96ca8f83dc2297cb6944f7afebd4daf2f8369c7ac880d282e0401bbebf429"
 metafile = true
 
 [[files]]
