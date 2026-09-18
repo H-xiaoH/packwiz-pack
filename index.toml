@@ -655,6 +655,11 @@ hash = "2541b092b92a82757e5d200a6093658e20db548bb8583abad3f4506ed04e5ce6"
 metafile = true
 
 [[files]]
+file = "resourcepacks/cozyui-plus.pw.toml"
+hash = "5ba1322b61ca7551554f7bb37359a256b92556283f9f90656a085703fcbcebf2"
+metafile = true
+
+[[files]]
 file = "resourcepacks/patrix-32x.pw.toml"
 hash = "9b533e4b0f44edd1ee5ffb2540c4d2c8ce618f7433576e250bb6dd64acd23267"
 metafile = true

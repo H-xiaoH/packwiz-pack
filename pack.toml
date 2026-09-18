@@ -1,12 +1,12 @@
 name = "HxiaoH's NeoForge Server"
 author = "HxiaoH"
-version = "26.9.14.19.44"
+version = "26.9.18.9.37"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "165f8853ad2b48b554934f16d7b8647cad31228e93f8bbf401a094aa698ce037"
+hash = "7e1c1aa94319f55219e9a9e41c1754a661f6a9d94568b93d73b603f2241097a7"
 
 [versions]
 minecraft = "1.21.1"
