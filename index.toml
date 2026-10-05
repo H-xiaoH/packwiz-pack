@@ -225,11 +225,6 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-api-port.pw.toml"
-hash = "238b3ceb4214a682480ce00eefae5d34efa299ff6ff667e4b2f2ed503c6e76ee"
-metafile = true
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "c490f7b680875f034af39a1556911d6edb1dcdd76a114ee6a4eca0f158cd92b2"
 metafile = true
@@ -497,16 +492,6 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "2a001cdb3d5ac4970d422914083c27380eba8ebd40dfd435754fe6566ba78beb"
-metafile = true
-
-[[files]]
-file = "mods/sophisticatedbackpacks.pw.toml"
-hash = "d578d480c2759380ccd53b153dbe66cfbd30cd70daa469b636f76cc33be312ee"
-metafile = true
-
-[[files]]
-file = "mods/sophisticatedcore.pw.toml"
-hash = "693fdc79c18086a2a939b45de97ca918d895d5a4247d2a0bba94bf53661bc705"
 metafile = true
 
 [[files]]
