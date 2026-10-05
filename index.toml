@@ -683,3 +683,13 @@ metafile = true
 file = "shaderpacks/iterationt-3-2-0.pw.toml"
 hash = "d4a33de8d9803716a2d7a1dfbce1beff84c9b1bca4dd1e93b7dd29940fa5c54a"
 metafile = true
+
+[[files]]
+file = "mods/sophisticatedbackpacks.pw.toml"
+hash = "c0f73c72c3903c3302a2589ba75fd4e1f4c1b3e2b1fe478340b2c826b55e5cd4"
+metafile = true
+
+[[files]]
+file = "mods/sophisticatedcore.pw.toml"
+hash = "e824f362b3537caa9dc64e54021f80b0f9f7a8eac36603fd8a3e53f3c7264670"
+metafile = true
