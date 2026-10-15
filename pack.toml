@@ -1,16 +1,16 @@
 name = "HxiaoH's NeoForge Server"
 author = "HxiaoH"
-version = "26.10.7.0.36"
+version = "26.10.15.22.57"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7a66c2f831c63e3848c7ea5bba8dc58812371c344c74e91f10dbe19558f43208"
+hash = "6c072e543d4963c01d36ddf539d174aafe502e9b368385799e7b519fde8b8b9b"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.250"
+neoforge = "21.1.262"
 
 [options]
 datapack-folder = "datapacks"
